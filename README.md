@@ -26,4 +26,4 @@ cargo build --release
 
 ## License
 
-(c) [Ilya Krukowski](http://bodrovis.tech/), licensed under the [beer-ware license](https://fedoraproject.org/wiki/Licensing/Beerware).
+(c) [xthirteenth](https://github.com/xthirteenth), licensed under the [beer-ware license](https://fedoraproject.org/wiki/Licensing/Beerware).
