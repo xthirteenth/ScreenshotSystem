@@ -1,0 +1,17 @@
+[package]
+name = "one"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.38", default-features = false, features = ["std", "clock"] }
+rdev = {version = "0.5.3", features = ["unstable_grab"]}
+xcap = "0.0.14"
+
+[profile.release]
+lto = true
+debug = 0
+opt-level = "z"
+panic = "abort"
+strip = "symbols"
+
